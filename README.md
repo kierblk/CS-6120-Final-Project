@@ -1,6 +1,7 @@
 # Project name
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+![Static Badge](https://img.shields.io/badge/NU-Spring_2024-red)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kierblk/README.md)
 ![GitHub contributors](https://img.shields.io/github/contributors/kierblk/README.md)
 ![GitHub stars](https://img.shields.io/github/stars/kierblk/README.md?style=social)
