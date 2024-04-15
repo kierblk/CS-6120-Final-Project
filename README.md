@@ -17,27 +17,41 @@ https://www.kaggle.com/datasets/drlexus/fed-statements-and-minutes/data
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-* You have installed the latest version of Python and pip (or other package manager).
-* You have a Windows, Linux, or Mac machine. This software is platform-independent.
+* You have installed Anaconda or Miniconda.
+* You have access to a terminal on a Windows, Linux, or Mac machine. 
 * You have read the documentation provided in the repo.
 
-## Installation
+## Installing Summarization and Sentiment Analysis Tool
 
-To install this project, follow these steps:
+To install the Summarization and Sentiment Analysis Tool and set up the necessary environment, follow these steps:
 
-Linux and macOS:
-```bash
-git clone https://github.com/kierblk/REPO-NAME.git
-cd REPO-NAME
-pip install -r requirements.txt
-```
+1. **Clone the Repository**
 
-Windows:
-```bash
-git clone https://github.com/kierblk/REPO-NAME.git
-cd REPO-NAME
-pip install -r requirements.txt
-```
+   ```bash
+   git clone https://github.com/kierblk/CS-6120-Final-Project.git
+   cd CS-6120-Final-Project
+   ```
+
+2. **Create the Conda Environment**
+
+   To create a Conda environment with all required dependencies, run:
+
+   ```bash
+   conda env create -f environment.yml
+   ```
+
+   This will install all the necessary packages as specified in the `environment.yml` file.
+
+3. **Activate the Environment**
+
+   Before running the project, activate your newly created Conda environment:
+
+   ```bash
+   conda activate myenv
+   ```
+
+   Replace `myenv` with the name of the environment specified in your `environment.yml` file.
+
 ## Usage
 
 To run this project, follow these steps:
